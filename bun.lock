@@ -1,0 +1,33 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "skills-ref-ts",
+      "dependencies": {
+        "commander": "^14.0.0",
+        "js-yaml": "^4.1.0",
+      },
+      "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^25.2.3",
+        "typescript": "^5.6.2",
+      },
+    },
+  },
+  "packages": {
+    "@types/js-yaml": ["@types/js-yaml@4.0.9", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/@types/js-yaml/-/js-yaml-4.0.9.tgz", {}, "sha512-k4MGaQl5TGo/iipqb2UDG2UwjXziSWkh0uysQelTlJpX1qGlpUZYm8PnO4DxG1qBomtJUdYJ6qR6xdIah10JLg=="],
+
+    "@types/node": ["@types/node@25.2.3", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/@types/node/-/node-25.2.3.tgz", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ=="],
+
+    "argparse": ["argparse@2.0.1", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/argparse/-/argparse-2.0.1.tgz", {}, "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="],
+
+    "commander": ["commander@14.0.3", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/commander/-/commander-14.0.3.tgz", {}, "sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw=="],
+
+    "js-yaml": ["js-yaml@4.1.1", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/js-yaml/-/js-yaml-4.1.1.tgz", { "dependencies": { "argparse": "^2.0.1" }, "bin": { "js-yaml": "bin/js-yaml.js" } }, "sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA=="],
+
+    "typescript": ["typescript@5.9.3", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/typescript/-/typescript-5.9.3.tgz", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "undici-types": ["undici-types@7.16.0", "https://artifactory.coxautoinc.com/artifactory/api/npm/dri-npm/undici-types/-/undici-types-7.16.0.tgz", {}, "sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw=="],
+  }
+}

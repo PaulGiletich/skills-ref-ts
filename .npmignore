@@ -1,0 +1,7 @@
+src/
+tsconfig.json
+tsconfig.cjs.json
+bun.lock
+node_modules/
+*.tsbuildinfo
+.gitignore
