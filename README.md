@@ -1,5 +1,7 @@
 # skills-ref-ts
 
+[![npm version](https://img.shields.io/npm/v/skills-ref-ts)](https://www.npmjs.com/package/skills-ref-ts)
+
 TypeScript port of the Agent Skills reference tooling. Mirrors the Python `skills-ref`.
 
 ## Installation
