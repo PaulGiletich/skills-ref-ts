@@ -25,14 +25,15 @@ export function parseFrontmatter(content: string): {
     throw new ParseError("SKILL.md must start with YAML frontmatter (---)");
   }
 
-  const parts = content.split("---", 3);
+  // Find the closing --- delimiter (must appear on its own line after the opening ---)
+  const closingIndex = content.indexOf("\n---", 3);
 
-  if (parts.length < 3) {
+  if (closingIndex === -1) {
     throw new ParseError("SKILL.md frontmatter not properly closed with ---");
   }
 
-  const yamlContent = parts[1];
-  const body = parts[2].trim();
+  const yamlContent = content.substring(3, closingIndex);
+  const body = content.substring(closingIndex + 4).trim();
 
   try {
     const metadata = yaml.load(yamlContent) as Record<string, any>;

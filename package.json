@@ -1,6 +1,6 @@
 {
   "name": "skills-ref-ts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Reference library for Agent Skills (TypeScript port) (unminified from skills-reference@1.0.7)",
   "type": "module",
   "main": "dist/cjs/index.js",
